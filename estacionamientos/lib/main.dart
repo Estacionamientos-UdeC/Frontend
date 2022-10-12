@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:estacionamientos/home_page.dart';
+
+import 'screens/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,11 +13,15 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Estacionamientos App',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.indigo,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      initialRoute: '/home',
+      routes: {
+        '/home' : (context) => const HomeScreen()
+      },
     );
   }
 }
