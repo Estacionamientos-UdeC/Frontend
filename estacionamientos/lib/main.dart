@@ -1,8 +1,27 @@
+import 'package:estacionamientos/providers/parking_provider.dart';
 import 'package:flutter/material.dart';
-import 'package:estacionamientos/home_page.dart';
+import 'package:provider/provider.dart';
+
+import 'screens/home_screen.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const AppState());
+}
+
+class AppState extends StatelessWidget{
+  const AppState({Key? key}) : super(key: key);
+  
+  @override
+  Widget build(BuildContext context) {
+    return MultiProvider(
+      providers: [
+        ChangeNotifierProvider(create: (_) => ParkingProvider(), lazy: false,),
+      ],
+      child: const MyApp(),
+    );
+  }
+
+
 }
 
 class MyApp extends StatelessWidget {
@@ -12,11 +31,15 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Estacionamientos App',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.indigo,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      initialRoute: '/home',
+      routes: {
+        '/home' : (context) => const HomeScreen()
+      },
     );
   }
 }
