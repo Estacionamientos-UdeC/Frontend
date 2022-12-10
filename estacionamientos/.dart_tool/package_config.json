@@ -200,6 +200,12 @@
       "languageVersion": "2.14"
     },
     {
+      "name": "web_socket_channel",
+      "rootUri": "file:///Users/diego/development/flutter/.pub-cache/hosted/pub.dartlang.org/web_socket_channel-2.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "xml",
       "rootUri": "file:///Users/diego/development/flutter/.pub-cache/hosted/pub.dartlang.org/xml-5.4.1",
       "packageUri": "lib/",
@@ -218,7 +224,7 @@
       "languageVersion": "2.17"
     }
   ],
-  "generated": "2022-10-12T18:02:00.658289Z",
+  "generated": "2022-12-10T19:07:27.841565Z",
   "generator": "pub",
   "generatorVersion": "2.17.6"
 }
