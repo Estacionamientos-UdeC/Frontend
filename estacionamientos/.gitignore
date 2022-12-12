@@ -1,0 +1,12 @@
+.dart_tool/
+build/
+doc/api/
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Mac
+.DS_Store

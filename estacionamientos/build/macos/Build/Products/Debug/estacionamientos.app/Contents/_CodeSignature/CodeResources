@@ -6,19 +6,19 @@
 	<dict>
 		<key>Resources/AppIcon.icns</key>
 		<data>
-		kun5K3EHt2qNiMa/0wFyDA8OK6w=
+		URS7ZMjS6R2b/EKu5Z1xZIypGck=
 		</data>
 		<key>Resources/Assets.car</key>
 		<data>
-		L//Mk2uVN5HqG3WlyvR35pdJwR4=
+		lzi1vfGpYvDqbKJhZTjVq8GufrU=
 		</data>
 		<key>Resources/Base.lproj/MainMenu.nib/keyedobjects-101300.nib</key>
 		<data>
-		NcAd9nuqLtDJUN3V5HxRJq+5v2E=
+		KOBKI+9OfnQD5wE4zr429aOKDWE=
 		</data>
 		<key>Resources/Base.lproj/MainMenu.nib/keyedobjects.nib</key>
 		<data>
-		UqBPSAbWhEIEcEF7bjU2bJGRPa4=
+		X29FJb6C0f/96eGTWA/WYGrwmYg=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -27,19 +27,19 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			o5eOKKMqIjfPlL7kPYuOUsrAuD0=
+			PhWAZQsbpedUGZzNWYKh2EjjBVg=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"a3978e28a32a2237cf94bee43d8b8e52cac0b83d"</string>
+			<string>cdhash H"9e53c44f5c5edbae35d1e6485867801207a165f5" or cdhash H"3e1580650b1ba5e754199ccd5982a1d848e30558"</string>
 		</dict>
 		<key>Frameworks/FlutterMacOS.framework</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			lMW5hnPHzCifagHiVc+bwGGZvCA=
+			8Q/APCxDBslsEDQ/hIso/RC+4EY=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"94c5b98673c7cc289f6a01e255cf9bc06199bc20"</string>
+			<string>cdhash H"24e7f4f279bfc2c4179c22d0bb59bcdf708bf42b" or cdhash H"f10fc03c2c4306c96c10343f848b28fd10bee046"</string>
 		</dict>
 		<key>Frameworks/libswiftAppKit.dylib</key>
 		<dict>
@@ -196,30 +196,46 @@
 		</dict>
 		<key>Resources/AppIcon.icns</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			URS7ZMjS6R2b/EKu5Z1xZIypGck=
+			</data>
 			<key>hash2</key>
 			<data>
-			XSLV5aDAk2ZNP+iDiB+JrUgSsTVPRKKYb6VH+lq6zIk=
+			mnw/86rBhdpr28A9GFSr/xwLnYgcKRhSPRhn0wpyVWQ=
 			</data>
 		</dict>
 		<key>Resources/Assets.car</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			lzi1vfGpYvDqbKJhZTjVq8GufrU=
+			</data>
 			<key>hash2</key>
 			<data>
-			TdyYtPSFk8viwMqrx/YMSis9NuFhgYKbZSceSUsRB+M=
+			XAkPCqKGifSJp+kh6yUHddvNHeEOqEp3brK+EVKJTCg=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/MainMenu.nib/keyedobjects-101300.nib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			KOBKI+9OfnQD5wE4zr429aOKDWE=
+			</data>
 			<key>hash2</key>
 			<data>
-			S3i76ImjIOgpOrvWCdumQN5ndzm8uucupTCUlDH59Jk=
+			SbOoblltUMZ35GX9jcyv6P7xN7USrxVNavMjFElqa/k=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/MainMenu.nib/keyedobjects.nib</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			X29FJb6C0f/96eGTWA/WYGrwmYg=
+			</data>
 			<key>hash2</key>
 			<data>
-			CQBjSyw0n2OzugEMQfZPTJjX019jYEiIQfFKN72CUbE=
+			p95zP/QS5Facu1/NW1oA0jmnO94fv2HulD9Zvg+lyNY=
 			</data>
 		</dict>
 	</dict>
